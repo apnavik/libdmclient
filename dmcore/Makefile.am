@@ -6,7 +6,10 @@ pkgconfig_DATA = libdmclient.pc
 libdmclient_la_includedir = $(includedir)/omadmclient
 libdmclient_la_include_HEADERS = include/omadmclient.h \
                                  include/omadmtree_mo.h \
-                                 include/syncml_error.h
+                                 include/syncml_error.h \
+                                 include/plugin_common.h \
+                                 include/att_plugin_common_defs.h \
+                                 include/att_plugin_node_definition.h
 
 libdmclient_la_SOURCES = src/omadmclient.c \
                          src/callbacks.c \
